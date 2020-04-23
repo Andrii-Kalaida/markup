@@ -4,6 +4,10 @@
     background-color: red;
     text-align: center;
     text-transform: uppercase;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .image-section {
@@ -14,6 +18,8 @@
 }
 
 .car {
+    display: block;
+    position: absolute;
     margin-left: auto;
     margin-right: auto;
 }
