@@ -2,16 +2,18 @@
     width: 100%;
     height: 100px;
     background-color: red;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .image-section {
     background-color: blue;
     width: 100%;
     height: auto;
-    padding-top: 80px;
+    margin-top: 80px;
 }
 
-.image-section > .car {
+.image-section .car {
     display: flex;
     justify-content: center;
     align-items: center;
