@@ -11,15 +11,19 @@
 }
 
 .image-section {
-    background-color: blue;
     width: 100%;
-    height: auto;
+    height: 500px;
+    background-color: blue;
     margin-top: 80px;
 }
 
+.image-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .car {
-    display: block;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
+    width:500px;
+    height: 350px;
 }
